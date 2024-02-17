@@ -18,9 +18,9 @@ So please replace the base Class `Form` in your Form.cs Files with `LightDarkFor
 
 Form.cs Before:
 ```
-public partial class Form : Form
+public partial class FormDemo : Form
 {
-    public Form2()
+    public FormDemo()
     {
         InitializeComponent();
     }
@@ -29,9 +29,9 @@ public partial class Form : Form
 
 Form.cs After:
 ```
-public partial class Form : LightDarkForm
+public partial class FormDemo : LightDarkForm
 {
-    public Form2()
+    public FormDemo()
     {
         InitializeComponent();
     }
