@@ -14,7 +14,7 @@ Simply add our `Fox.WinForms.LightDarkForm` NuGet Package to your project.
 ## How to use
 We've just extended the defaut `Form` Class of WinForms with some little extra logic.
 
-So please replace the base Class `Form` in your Form.cs Files with `LightDarkForm`.
+So please replace the base Class `Form` in your Form.cs Files with `LightDarkForm` and add `using Fox.WinForms.LightDarkForm;`.
 
 Form.cs Before:
 ```
@@ -29,6 +29,8 @@ public partial class FormDemo : Form
 
 Form.cs After:
 ```
+using Fox.WinForms.LightDarkForm;
+
 public partial class FormDemo : LightDarkForm
 {
     public FormDemo()
